@@ -19,16 +19,19 @@ This project aims to **convert Indian Sign Language gestures into readable Engli
 🔧 Installation & Setup
 
 1. ✅ Clone the Repository
+
    git clone https://github.com/somithaasri/signlanguage-text.git
    cd signlanguage-text
 
-2. 📦 Install Required Packages
+3. 📦 Install Required Packages
+
    pip install opencv-python mediapipe tensorflow numpy
 
 ▶️ Running the Project
 Make sure your webcam is enabled before running.
 
 1. Run the Main Application
+
    python main.py
 
 
