@@ -16,24 +16,57 @@ This project aims to **convert Indian Sign Language gestures into readable Engli
 
 ---
 
-## Installation
+🔧 Installation & Setup
+Follow these steps to install and run the project on your local machine:
 
-1. **Clone the Repository**
-```bash
+1. ✅ Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/somithaasri/signlanguage-text.git
 cd signlanguage-text
+2. 🐍 Set Up a Virtual Environment (Recommended)
+bash
+Copy
+Edit
+# Create virtual environment
+python -m venv venv
 
-Install Dependencies
+# Activate it
+# Windows:
+venv\Scripts\activate
+
+# macOS/Linux:
+source venv/bin/activate
+3. 📦 Install Required Packages
+If a requirements.txt file is present:
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
+Or manually install the core dependencies:
 
-If requirements.txt is missing, manually install:
+bash
+Copy
+Edit
 pip install opencv-python mediapipe tensorflow numpy
+▶️ Running the Project
+Make sure your webcam is enabled before running.
 
-▶️ How to Run
-Make sure your webcam is connected.
-Run the main file:
+1. Run the Main Application
+bash
+Copy
+Edit
 python main.py
-You’ll see a live video feed. Make a hand gesture (like A, B, C...), and the detected letter will appear as text on the screen.
+2. What Happens Next?
+A live webcam feed will open.
+
+Show a hand gesture corresponding to a supported sign (e.g., 'A', 'B', 'C'...).
+
+The predicted gesture will appear as text on the screen.
+
+
 
 
 
