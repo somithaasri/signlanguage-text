@@ -28,7 +28,7 @@ Installation & Setup
    pip install opencv-python mediapipe tensorflow numpy
 
 Running the Project
-Make sure your webcam is enabled before running.
+(Make sure your webcam is enabled before running).
 
 1. Run the Main Application
 
