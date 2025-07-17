@@ -38,26 +38,20 @@ venv\Scripts\activate
 
 # macOS/Linux:
 source venv/bin/activate
+
 3. 📦 Install Required Packages
 If a requirements.txt file is present:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Or manually install the core dependencies:
 
-bash
-Copy
-Edit
 pip install opencv-python mediapipe tensorflow numpy
+
 ▶️ Running the Project
 Make sure your webcam is enabled before running.
 
 1. Run the Main Application
-bash
-Copy
-Edit
+
 python main.py
 2. What Happens Next?
 A live webcam feed will open.
