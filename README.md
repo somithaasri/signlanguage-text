@@ -16,17 +16,6 @@ This project aims to **convert Indian Sign Language gestures into readable Engli
 
 ---
 
-## Folder Structure
-
-signlanguagedection/
-├── data/ # Collected keypoint data for training
-├── trained_model/ # Saved model files (.h5 or .pb)
-├── main.py # Main script to run real-time detection
-├── sign_language_helper.py # Helper for preprocessing
-├── README.md # Project documentation
-├── requirements.txt # Required dependencies
----
-
 ## Installation
 
 1. **Clone the Repository**
